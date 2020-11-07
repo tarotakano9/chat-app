@@ -10,14 +10,45 @@
 
 .side-bar-top {
   height: 100px;
-  padding: 0, 20px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-box a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room-box {
+  font-size: 10px;
+}
+
+.create-room-box a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .side-bar-bottom {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
-  padding: 0, 20px;
+  padding: 0 20px;
+  overflow: scroll;
 }
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .chat {
   background-color: #ffffff;
@@ -26,17 +57,17 @@
 
 .chat-top {
   height: 100px;
-  padding: 0, 40px;
+  padding: 0 40px;
 }
 
 .chat-main {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
-  padding: 46px, 40px, 0;
+  padding: 46px 40px 0;
 }
 
 .chat-bottom {
   background-color: #DDDDDD;
   height: 90px;
-  padding: 20px, 40px;
+  padding: 20px 40px;
 }
