@@ -114,7 +114,7 @@
   margin-bottom: 40px;
 }
 
-.chat-bottom {
+.form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -156,4 +156,8 @@
 
 .hidden {
   display: none;
+}
+
+.field_with_errors {
+  display: contents;
 }
